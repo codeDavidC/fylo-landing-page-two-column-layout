@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle Landing Page with Curved Sections
+# Frontend Mentor - Fylo Landing Page with Two Column Layout
 
 ![Mobile version stacked](./design/design-stack.jpg)
 ![Web design layout of front end mentor QR Code Component Solution](./design/desktop-design.jpg)
