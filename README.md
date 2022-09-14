@@ -77,13 +77,13 @@ I learned how to use these lines of code:
 ```
 
 
-### Continued development and resources
+### Resources
 
-I want to have a faster workflow.
+- CSS Selector Symbols: [https://techbrij.com/css-selector-adjacent-child-sibling](https://techbrij.com/css-selector-adjacent-child-sibling) - This helped me ...
 
-- [W3 Schools: CSS Forms](https://www.w3schools.com/css/css_form.asp) - This helped me with styling css forms.
+- CSS background-image Property: [https://www.w3schools.com/cssref/pr_background-image.asp](https://www.w3schools.com/cssref/pr_background-image.asp) - This helped me...
 
-- [W3 Schools: HTML Forms](https://www.w3schools.com/html/html_forms.asp) - This helped me create the HTML forms.
+- Styling Forms with CSS [https://www.w3schools.com/css/tryit.asp?filename=trycss_forms](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms) - This helped me ...
 
 ## Author
 
