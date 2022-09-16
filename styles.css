@@ -49,6 +49,10 @@
     color: var(--bright-blue);
 }
 
+.nav-menu-item a:active {
+    transform: scale(.9);
+}
+
 .nav-menu ul {
     width: 167px;
     display: flex;
@@ -155,7 +159,7 @@
 }
 
 .section-middle--image {
-    max-width: 318px;
+    width: 318px;
 }
 
 .section-middle--text h1 {
@@ -236,7 +240,8 @@
 }
 
 .avatar-name p:nth-child(2) {
-font-size: 6px;}
+    font-size: 6px;
+}
 
 /* ----------------------------------------------------------- */
 /* -------------------- Section Bottom ----------------------- */
@@ -395,6 +400,10 @@ font-size: 6px;}
     border: solid 1.5px var(--bright-blue);
 }
 
+.footer-social a:active {
+    transform: scale(.9);
+}
+
 .attribution {
     padding-bottom: 16px;
     background-color: var(--very-dark-blue);
@@ -406,4 +415,262 @@ font-size: 6px;}
 
 .attribution a {
     color: #6b9bff;
+}
+
+@media screen and (min-width: 1100px) {
+
+    .header {
+        padding: 64px 80px;
+    }
+
+    .logo--top {
+        width: 167px;
+    }
+
+    .nav-menu-item a {
+        font-size: 1rem;
+    }
+
+    .nav-menu ul {
+        width: 274px;
+    }
+
+    /* -------------------------------------------------------- */
+    /* -------------------- Section Top ----------------------- */
+    /* -------------------------------------------------------- */
+
+    .section-top {
+        /* max-width: 1280px; */
+        margin-top: 7px;
+        padding-left: 80px;
+        padding-right: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-top--image {
+        order: 2;
+        flex: 1 1 50%;
+    }
+
+    .section-top--text {
+        order: 1;
+        flex: 1 1 50%;
+    }
+
+    .section-top--text h1 {
+        padding-top: 0px;
+        max-width: 590px;
+        font-size: 2.5rem;
+        text-align: left;
+        line-height: 62px;
+    }
+
+    .section-top--text p {
+        padding-top: 0px;
+        max-width: 578px;
+        font-size: 1.125rem;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .form-top {
+        margin-top: 25px;
+        flex-direction: row;
+    }
+
+    .form-top input[type=email] {
+        margin-top: 0px;
+        max-width: 322px;
+        padding: 14px 21px;
+        font-size: .875rem;
+    }
+
+    .form-top input[type=submit] {
+        margin-top: 0px;
+        margin-left: 14px;
+        width: 200px;
+        padding: 13px;
+        text-align: center;
+    }
+
+    /* ----------------------------------------------------------- */
+    /* -------------------- Section Middle ----------------------- */
+    /* ----------------------------------------------------------- */
+
+    .section-middle {
+        margin-top: 238px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 106px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-middle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 65px;
+        background-image: url(./images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+    }
+
+    .section-middle--image {
+        order: 2;
+        flex: 1 1 50%;
+    }
+
+    .section-middle--text {
+        order: 1;
+        flex: 1 1 50%;
+    }
+
+    .section-middle--text h1 {
+        font-size: 2.5rem;
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .section-middle--text>p {
+        margin-top: 38px;
+        width: 585px;
+        font-size: 1.125rem;
+        line-height: 22px;
+    }
+
+    .section-middle a {
+        margin-top: 17px;
+        width: 167px;
+        font-size: 1rem;
+    }
+
+    .testimonial-card {
+        margin-top: 45px;
+        max-width: 356px;
+        padding: 27px 33px;
+
+    }
+
+    .testimonial-card blockquote {
+        font-size: .625rem;
+        line-height: 18px;
+    }
+
+    .container-avatar {
+        margin-top: 18px;
+    }
+
+    .avatar-image {
+        width: 32px;
+    }
+
+    .avatar-image img {
+        border-radius: 16px;
+    }
+
+    .avatar-name {
+        padding-left: 8px;
+    }
+
+    .avatar-name p:nth-child(1) {
+        font-size: 11px;
+    }
+
+    .avatar-name p:nth-child(2) {
+        font-size: 8px;
+    }
+
+    /* ----------------------------------------------------------- */
+    /* -------------------- Section Bottom ----------------------- */
+    /* ----------------------------------------------------------- */
+
+    .section-bottom {
+        padding: 100px 80px 85px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-bottom--text h2 {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .section-bottom--text p {
+        width: 540px;
+        font-size: 1.063rem;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .form-bottom {
+        /* width: 300px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-bottom input[type=email] {
+        margin-top: 0px;
+        width: 480px;
+        padding: 17px 22px;
+    }
+
+    .form-bottom input[type=submit] {
+        width: 200px;
+        font-size: .875rem;
+        padding: 15px;
+    }
+
+    /* ----------------------------------------------------------- */
+    /* -------------------- footer-------------------------------- */
+    /* ----------------------------------------------------------- */
+
+    .footer-container {
+        padding: 109px 80px 72px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer-contact {
+        flex: 1 1 35%;
+    }
+
+    .footer-menu {
+        margin-top: 75px;
+        flex: 1 1 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .menu-one {
+        flex: 1 1 50%;
+    }
+    .menu-two {
+        margin-top: 0px;
+flex: 1 1 50%;
+    }
+
+    .footer-social {
+        flex: 1 1 25%;
+        justify-content: center;
+    }
+
+.footer-social a {
+    width: 32px;
+    height: 32px;
+    margin: 0px 6px 0px;
+}
+
 }
