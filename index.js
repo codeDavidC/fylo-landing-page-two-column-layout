@@ -11,3 +11,7 @@ formTop.addEventListener("submit", (e) => {
 formBottom.addEventListener("submit", (e) => {
   e.preventDefault();
 });
+
+let checkEmail = "Please check your email";
+
+const topEmail = document.querySelector(".top-email-input")

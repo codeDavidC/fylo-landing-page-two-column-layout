@@ -129,6 +129,10 @@
     background-color: #6b9bff;
 }
 
+.form-top input[type=submit]:active {
+    transform: scale(.98);
+}
+
 /* ----------------------------------------------------------- */
 /* -------------------- Section Middle ----------------------- */
 /* ----------------------------------------------------------- */
@@ -193,6 +197,18 @@
     color: #80e7d4;
     border-bottom: 1px solid #80e7d4;
 }
+
+.section-middle a:active {
+    transform: scale(.98);
+}
+
+a .arrow-icon {
+    color: #3DA08F;
+  }
+  
+  a:hover .arrow-icon {
+    color: #80e7d4;
+  }
 
 /* HOW DO I COLOR THE SVG ON HOVER??? */
 
@@ -305,6 +321,10 @@
     background-color: #6b9bff;
 }
 
+.form-bottom input[type=submit]:active {
+    transform: scale(.98);
+}
+
 /* ----------------------------------------------------------- */
 /* -------------------- footer-------------------------------- */
 /* ----------------------------------------------------------- */
@@ -401,7 +421,7 @@
 }
 
 .footer-social a:active {
-    transform: scale(.9);
+    transform: scale(.98);
 }
 
 .attribution {

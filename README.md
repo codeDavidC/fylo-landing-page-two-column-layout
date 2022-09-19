@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo Landing Page with Two Column Layout
 
-![Mobile version stacked](./design/design-stack.jpg)
+![Mobile version stacked](./design/mobile-stacked.jpg)
 ![Web design layout of front end mentor QR Code Component Solution](./design/desktop-design.jpg)
 
 This is a solution to the [challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/).
@@ -20,9 +20,9 @@ This is a solution to the [challenge on Frontend Mentor](https://www.frontendmen
 
 ### Links
 
-- XD Prototype: [https://xd.adobe.com/view/78e74335-b01f-44b8-ab92-5b7efef4c3dd-2db4/](https://xd.adobe.com/view/78e74335-b01f-44b8-ab92-5b7efef4c3dd-2db4/)
+- XD Prototype: [https://xd.adobe.com/view/a5c259bd-c916-4f2f-b0a6-bbd79635e16c-f091/](https://xd.adobe.com/view/a5c259bd-c916-4f2f-b0a6-bbd79635e16c-f091/)
 - Solution URL: []()
-- Live Site URL: [https://codedavidc.github.io/four-card-feature-section-master/](https://codedavidc.github.io/four-card-feature-section-master/)
+- Live Site URL: [https://codedavidc.github.io/fylo-landing-page-two-column-layout/](https://codedavidc.github.io/fylo-landing-page-two-column-layout/)
 
 
 ## My process and what I learned
@@ -79,11 +79,11 @@ I learned how to use these lines of code:
 
 ### Resources
 
-- CSS Selector Symbols: [https://techbrij.com/css-selector-adjacent-child-sibling](https://techbrij.com/css-selector-adjacent-child-sibling) - This helped me ...
+- CSS Selector Symbols: [https://techbrij.com/css-selector-adjacent-child-sibling](https://techbrij.com/css-selector-adjacent-child-sibling) - This helped me review the Selector Symbols such as ~ and >.
 
-- CSS background-image Property: [https://www.w3schools.com/cssref/pr_background-image.asp](https://www.w3schools.com/cssref/pr_background-image.asp) - This helped me...
+- CSS background-image Property: [https://www.w3schools.com/cssref/pr_background-image.asp](https://www.w3schools.com/cssref/pr_background-image.asp) - This helped me refresh my memory on background-image.
 
-- Styling Forms with CSS [https://www.w3schools.com/css/tryit.asp?filename=trycss_forms](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms) - This helped me ...
+- Styling Forms with CSS [https://www.w3schools.com/css/tryit.asp?filename=trycss_forms](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms) - This helped me with sylting the form.
 
 ## Author
 
